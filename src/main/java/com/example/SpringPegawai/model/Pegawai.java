@@ -29,4 +29,45 @@ public class Pegawai {
     @Temporal(TemporalType.TIMESTAMP)
     @CreatedDate
     private Date masukPada;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNamaDepanPegawai() {
+        return namaDepanPegawai;
+    }
+
+    public void setNamaDepanPegawai(String namaDepanPegawai) {
+        this.namaDepanPegawai = namaDepanPegawai;
+    }
+
+    public String getNamaBelakangPegawai() {
+        return namaBelakangPegawai;
+    }
+
+    public void setNamaBelakangPegawai(String namaBelakangPegawai) {
+        this.namaBelakangPegawai = namaBelakangPegawai;
+    }
+
+    public String getJabatanPegawai() {
+        return jabatanPegawai;
+    }
+
+    public void setJabatanPegawai(String jabatanPegawai) {
+        this.jabatanPegawai = jabatanPegawai;
+    }
+
+    public Date getMasukPada() {
+        return masukPada;
+    }
+
+    public void setMasukPada(Date masukPada) {
+        this.masukPada = masukPada;
+    }
 }
+
