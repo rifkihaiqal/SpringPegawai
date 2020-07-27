@@ -13,7 +13,7 @@ import java.util.Date;
 @JsonIgnoreProperties(value = {"masukPada"}, allowGetters = true)
 public class Pegawai {
     @Id
-    @GeneratedValue (strategy = GenerationType.AUTO)
+    @GeneratedValue (strategy = javax.persistence.GenerationType.AUTO)
     private Long id;
 
     @NotBlank
